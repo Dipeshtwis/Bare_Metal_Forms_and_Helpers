@@ -46,7 +46,7 @@ $ rails db:migrate
 $ rails s
 ```
 
-## Command on yor browser <a name = "sc"></a>
+## Command on local server <a name = "sc"></a>
 
 To create a new user 
 ```
