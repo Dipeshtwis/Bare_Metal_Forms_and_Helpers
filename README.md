@@ -1,6 +1,6 @@
 # Bare_Metal_Forms_and_Helpers
 
-This project was used to get our feets wet working with form building using Rails powerful form helpers. These project involved building some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides
+This project was used to get our feets wet working with form building using Rails powerful form helpers. These project involved building some forms, both using pure HTML and then using the helper methods that Rails provides.
       
 
 <div align="center">
@@ -15,8 +15,8 @@ This project was used to get our feets wet working with form building using Rail
 
 <p align="center">
 <a href="#with">Built with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#sc">Screenshot</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#gs">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#sc">Create and edit User</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#author">Author</a>
 </p>
 
@@ -24,11 +24,6 @@ This project was used to get our feets wet working with form building using Rail
 
 - Ruby on Rails (Version: 6.0.3.2)
 - Ruby (Version: 2.7.1)
-
-
-## Screenshot <a name = "sc"></a>
-
-![screenshot](./app/assets/images/model_diagram.png)
 
 
 ## Getting Started <a name = "gs"></a>
@@ -44,9 +39,24 @@ $ git clone git@github.com:Dipeshtwis/Bare_Metal_Forms_and_Helpers.git
 $ cd Bare_Metal_Forms_and_Helpers
 $ bundle install
 $ yarn install --check-files
+$ rails db:migrate
 ~~~
 
+```
+$ rails s
+```
 
+## Command on yor browser <a name = "sc"></a>
+
+To create a new user 
+```
+[]- localhost:3000/users/new
+```
+
+To edit and update a user which is just created
+```
+[]- localhost:3000/users/1/edit
+```
 
 ## ✒️  Authors <a name = "author"></a>
 
