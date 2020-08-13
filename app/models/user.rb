@@ -12,7 +12,6 @@ class User < ApplicationRecord
     (?=.*\d)
     (?=.*[a-z])
     (?=.*[A-Z])
-    (?=.[[:^alnum:]])
   /x.freeze
 
   validates :password, format: PASSWORD_REQUIREMENTS
