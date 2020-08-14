@@ -14,5 +14,5 @@ class User < ApplicationRecord
     (?=.*[A-Z])
   /x.freeze
 
-  validates :password, format: PASSWORD_REQUIREMENTS
+  validates :password, presence: true, format: PASSWORD_REQUIREMENTS
 end
