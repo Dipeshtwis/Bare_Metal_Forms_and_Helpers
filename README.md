@@ -42,7 +42,7 @@ $ cd <folder>
 ~~~bash
 $ git clone git@github.com:Dipeshtwis/Bare_Metal_Forms_and_Helpers.git
 $ cd Bare_Metal_Forms_and_Helpers
-$ bundle install
+$ bundle
 $ yarn install --check-files
 $ rails db:migrate
 ~~~
